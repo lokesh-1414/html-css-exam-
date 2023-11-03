@@ -27,12 +27,10 @@
     padding: 1rem;
     align-items: center;
   }
-
   .website-logo img {
     width: 8rem;
     cursor: pointer;
   }
-  
   .navbar-items nav ul {
     display: flex;
     gap: 3rem;
@@ -75,7 +73,6 @@
     max-width: 1300px;
     margin: auto;
   }
-  
   .banner__text {
     color: white;
   }
@@ -106,7 +103,7 @@
   }
 .booking-wrapper{
   background-color: #FEC719;
-  padding-top: 5rem;
+  padding-top: 8rem;
 }
 .booking{
   display: flex;
@@ -128,7 +125,6 @@
   font-size: 1.3rem;
   font-weight: bold;
 }
-
 .booking__desc h3{
   text-transform: uppercase;
   font-size: 3rem;
@@ -269,7 +265,6 @@ input:last-child{
    padding: 0.5rem;
    border-radius: 10px;
    font-weight: bold;
-
 }
 .inner-card a:hover{
   background-color: black;
@@ -281,76 +276,60 @@ input:last-child{
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .testimonial__content {
   max-width: 1300px;
   margin-bottom: 4rem;
 }
-
 .testimonial__heading{
     padding: 5rem 0;
 }
-
 .text-yellow {
   color: #ffc719;
 }
-
 .card--black {
   background-color: black;
   padding: 2rem;
   border-radius: 3rem;
 }
-
 .card__text {
   font-size: 0.875rem;
   padding-bottom: 1rem;
 }
-
 .card__image {
   width: 60px;
   height: 60px;
   border-radius: 10rem;
 }
-
 .card__body {
   display: flex;
   justify-content: start;
   gap: 1rem;
 }
-
 .card__text--medium {
   font-size: 1.125rem;
 }
-
 .card__text--small {
   font-size: 0.875rem;
 }
-
 footer {
   font-family: "Roboto", sans-serif;
 }
-
 .footer {
   max-width: 1300px;
 }
-
 .footer--dark {
   background-color: #0e0b0c;
 }
-
 .border--yellow {
   padding-bottom: 1rem;
   border-bottom: 7px solid #fec719;
 }
-
 .footer__para {
   font-size: 1rem;
 }
-
 .yellow {
   color: #fec719;
 }
-
 .footer_device {
   font-size: 1.125rem;
   color: #fec719;
@@ -359,38 +338,32 @@ footer {
   display: flex;
   flex-direction: column;
 }
-
 .footer__contact {
   font-size: 1rem;
 }
-
 .footer__writing {
   display: flex;
   align-items: center;
   hyphens: auto;
   flex-direction: row;
 }
-
 .footer__link {
   text-decoration: none;
   color: white;
   word-spacing: 5px;
   margin-left: 1.5rem;
 }
-
 .copyright {
   padding: 1rem 0rem;
   font-size: 0.875rem;
   font-weight: bold;
 }
-
 .copyright__link,
 .copyright__link :hover,
 .footer__link:hover {
   color: white;
   text-decoration: none;
 }
-
 @media screen and (min-width: 1300px) {
   html {
     font-size: 16px;
@@ -424,6 +397,12 @@ footer {
     font-size: 16px;
   }
 }
+@media (max-width: 1070px) {
+  .banner__text img{
+    width: 45rem;
+    margin-top: 8rem;
+  }
+}
 @media (max-width: 1025px) {
   html {
     font-size: 14px;
@@ -431,7 +410,14 @@ footer {
   .banner__text img{
    
     width: 45rem;
-    transform: scaleY(1) translateY(50%);
+    transform: scaleY(1.6) translateY(50%);
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 790px) {
+  .banner__text img{
+    width: 40rem;
+    margin-top: 8rem;
   }
 }
 @media (max-width: 770px) {
@@ -439,7 +425,7 @@ footer {
     font-size: 10px;
   }
   .banner__text img {
-    width: 45rem;
+    width: 55rem;
   }
   .booking_desc, .booking_form--wrapper{
     width: 45%;
@@ -448,9 +434,13 @@ footer {
   .booking__form{
     width: 100%;
   }
-
   .cab-class{
     flex-wrap: wrap;
+  }
+  .banner__text img{
+    width: 50rem;
+    margin-top: 8rem;
+    transform: scaleY(1.6) translateY(50%);
   }
 }
 @media (max-width: 650px) {
@@ -473,7 +463,6 @@ footer {
     padding: 1rem 0rem;
     z-index: 2;
   }
-
   nav ul{
       flex-direction: column;
   }
@@ -486,6 +475,7 @@ footer {
   }
   .banner__text img{
     width: 35rem;
+    margin-top: 8rem;
   }
 }
 @media screen and (max-width: 580px) {
@@ -502,6 +492,10 @@ footer {
   }
   .cab-class__item img{
     width: 100%;
+  }
+  .banner__text img{
+    width: 45rem;
+    margin-top: 8rem;
   }
 }
 @media screen and (max-width:480px) {
@@ -553,5 +547,4 @@ footer {
   .banner__text img {
     width: 35rem;
   }
-  
 }
