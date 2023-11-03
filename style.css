@@ -411,6 +411,14 @@ footer {
   align-items: center;
 }
 }
+@media (max-width: 1064px) {
+  
+  .banner__text img{
+   
+    width: 45rem;
+    transform: scaleY(1) translateY(50%);
+  }
+}
 @media (min-width: 1026px) and (max-width: 1299px) {
   html {
     font-size: 16px;
@@ -422,7 +430,7 @@ footer {
   }
   .banner__text img{
    
-    width: 58rem;
+    width: 45rem;
     transform: scaleY(1) translateY(50%);
   }
 }
@@ -431,7 +439,7 @@ footer {
     font-size: 10px;
   }
   .banner__text img {
-    width: 60rem;
+    width: 45rem;
   }
   .booking_desc, .booking_form--wrapper{
     width: 45%;
@@ -476,6 +484,9 @@ footer {
   nav ul li a {
     color: #ffc719;
   }
+  .banner__text img{
+    width: 35rem;
+  }
 }
 @media screen and (max-width: 580px) {
   html{
@@ -512,7 +523,7 @@ footer {
     font-size: 12px;
   }
   .banner__text img{
-    width: 40rem;
+    width: 35rem;
   }
 }
 @media (max-width: 380px) {
