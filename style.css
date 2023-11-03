@@ -33,8 +33,11 @@
   }
   .navbar-items nav ul {
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
     margin: 0;
+  }
+  .search-icon{
+    width: 2rem;
   }
   .navbar-items ul li {
     list-style: none;
@@ -71,8 +74,6 @@
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
-    max-width: 1300px;
-    margin: auto;
   }
   .banner__text {
     color: white;
@@ -110,8 +111,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1300px;
-  margin: auto;
   padding: 2rem;
   gap: 3rem;
 }
@@ -206,8 +205,6 @@ input:last-child{
 .tariff-section{
   text-align: center;
   margin-top: 2rem;
-  max-width: 1300px;
-  margin: auto;
 }
 .tarrif-heading{
   font-size: 3rem;
@@ -315,6 +312,10 @@ input:last-child{
   justify-content: start;
   gap: 1rem;
 }
+.card__body-text{
+  display: flex;
+  flex-direction: column;
+}
 .card__text--medium {
   font-size: 1.125rem;
 }
@@ -376,9 +377,9 @@ footer {
 }
 @media screen and (min-width: 1300px) {
   html {
-    font-size: 16px;
+    font-size: 15px;
   }
-  .custom-container {
+  .custom-container, .banner, .booking, .tariff-section {
     max-width: 1300px;
     margin: auto;
   }
@@ -395,9 +396,7 @@ footer {
 }
 }
 @media (max-width: 1064px) {
-  
   .banner__text img{
-   
     width: 45rem;
     transform: scaleY(1) translateY(50%);
   }
@@ -411,6 +410,10 @@ footer {
   .banner__text img{
     width: 45rem;
     margin-top: 8rem;
+  }
+  .navbar-items ul li a {
+    
+    padding: 0.5rem 0;
   }
 }
 @media (max-width: 1025px) {
