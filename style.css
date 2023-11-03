@@ -17,7 +17,7 @@
   header {
     position: relative;
   }
-  .header--top {
+  .header-top {
     width: 100%;
     top: 0;
     left: 0;
@@ -399,7 +399,7 @@ footer {
     max-width: 1300px;
     margin: auto;
   }
-  .header--top {
+  .header-top {
   width: 100%;
   top: 0;
   left: 0;
