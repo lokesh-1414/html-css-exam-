@@ -38,6 +38,7 @@
   }
   .navbar-items ul li {
     list-style: none;
+    cursor: pointer;
   }
   .navbar-items ul li a {
     text-decoration: none;
@@ -45,10 +46,10 @@
     font-size: 1rem;
     text-transform: uppercase;
     cursor: pointer;
+    padding: 0.5rem 1rem;
   }
   .navbar-items ul li a:hover {
     background-color: #ffc719;
-    padding: 0.5rem 1rem;
     border-radius: 15px;
     color: black;
   }
@@ -248,7 +249,7 @@ input:last-child{
 .standard--class{
   background-color: #ffc719;
 }
-.custom--standard-class{
+#custom--standard-class{
   color: black;
 }
 .inner-card{
@@ -265,6 +266,15 @@ input:last-child{
    padding: 0.5rem;
    border-radius: 10px;
    font-weight: bold;
+   margin-bottom: 1rem;
+}
+#standard-button{
+  background-color: black;
+  color: #FEC719;
+}
+#standard-button:hover{
+  color: black;
+  background-color: white;
 }
 .inner-card a:hover{
   background-color: black;
