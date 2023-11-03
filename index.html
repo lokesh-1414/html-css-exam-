@@ -8,18 +8,252 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header>
+        <img class="background-image" src="./assets/banner.jpg" alt="banner">
+        <div class="header--top ">
+            <div class="website-logo">
+                <a href=""><img src="./assets/Logo.png" alt="website logo"></a>
+            </div>
+            <label for="check" id="hamburger-icon"><i class="fa fa-bars"></i></label>
+            <input type="checkbox" id="check" name="menu-bar" value="">
+            <div class="navbar-items">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#booking-sction">About</a></li>
+                        <li><a href="#tarrif">Features</a></li>
+                        <li><a href="#testimonial-section">Blog</a></li>
+                        <li><a href="#contact">Order Now</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+                        <li><img src="./assets/Search_icon.png" alt="search icon"></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <section class="banner">
+            <div class="banner__wrapper">
+                <div class="banner__text">
+                    <h1>Book CAB Now</h1>
+                    <div class="banner__content">
+                        <span class="contact-number">+123 4567 8900</span>
+                        <span class="site-link">www.psdfreebies.com</span>
+                    </div>
+                    <img src="./assets/banner_car_png.png" alt="banner car">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <div class="booking-wrapper" id="booking-sction">
+            <section class="booking">
+                <div class="booking__desc">
+                    <h2 class="booking__heading">best in city</h2>
+                    <h3 class="booking__subheading">trusted cab services in new york</h3>
+                    <p class="booking__desc--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                        natus similique at commodi molestiae, reiciendis minus ducimus, sint, sapiente autem possimus
+                        molestias aliquid recusandae. Dicta ipsum rem beatae exercitationem dignissimos? Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Nulla, dignissimos?</p>
+                    <a href="#" class="booking__btn ">Read More</a>
+                </div>
+                <div class="booking__form--wrapper">
+                    <div class="booking__form">
+                        <h2 class="booking__heading cab-book">book a <span>cab</span></h2>
+                        <form>
+                            <input type="text" class="booking__form--input" placeholder="Name">
+                            <input type="number" class="booking__form--input" placeholder="Phone">
+                            <input type="text" class="booking__form--input" placeholder="Place">
+                            <input type="text" class="booking__form--input" placeholder="Time">
+                            <input type="text" class="booking__form--input" placeholder="Start">
+                            <input type="text" class="booking__form--input" placeholder="End">
+                            <input type="text" class="booking__form--input" placeholder="Choose Vehicle">
+                        </form>
+                        <div class="btn-div">
+                            <button class="booking__form--btn btn">submit</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
 
 
 
+        <div class="tarrif-section-wrapper" id="tarrif">
+            <section class="tariff-section">
+                <span class="tarrif-heading">Our</span>
+                <h2>Tarrifs</h2>
 
+                <div class="cab-class">
+                    <div class="cab-class__item custom--class">
+                        <img src="./assets/car_png.png" alt="custom car">
+                        <h3>Economy Class</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt beatae amet illum minima. .
+                            Sunt beatae
+                            amet
+                            illum minima.</p>
+                        <div class="inner-card">
+                            <span>$1,5/Ml</span>
+                            <a href="">Read More</a>
+                        </div>
+                    </div>
+                    <div class="cab-class__item standard--class">
+                        <img src="./assets/car_png.png" alt="custom car">
+                        <h3>Standard Class</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt beatae amet illum minima. .
+                            Sunt beatae
+                            amet
+                            illum minima.</p>
+                        <div class="inner-card">
+                            <span class="custom--standard-class">$1,5/Ml</span>
+                            <a href="">Read More</a>
+                        </div>
+                    </div>
+                    <div class="cab-class__item custom--class">
+                        <img src="./assets/car_png.png" alt="custom car">
+                        <h3>Business Class</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt beatae amet illum minima..
+                            Sunt beatae amet
+                            illum minima.</p>
+                        <div class="inner-card">
+                            <span>$1,5/Ml</span>
+                            <a href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
 
+        <section class="testimonial" id="testimonial-section">
+            <div class="container testimonial__content">
+                <div class="testimonial__heading">
+                    <h3 class="text-uppercase text-center text-yellow fw-bold">
+                        Happy Client's
+                    </h3>
+                    <h2 class="text-uppercase text-center text-white fw-bold">
+                        Testimonials
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <figure class="card card--black">
+                            <figcaption class="card__text text-white">
+                                At vero eos et atque accusamus et atque iusto odio dignissimos
+                                ducimus qui blanditiis praesentium voluptatum deleniti atque
+                                corrupti. Blanditiis prae euismod eu oluptatum deleniti atque
+                            </figcaption>
+                            <div class="card__body">
+                                <img src="./assets/Business_man_image.jpg" class="card__image" alt="Business_man_image">
+                                <div>
+                                    <span class="text-uppercase yellow fw-bold card__text--medium">
+                                        John Joe </span><br>
+                                    <span class="text-uppercase text-white fw-semibold card__text--small">
+                                        Business Man
+                                    </span>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="col-sm-6">
+                        <figure class="card card--black">
+                            <figcaption class="card__text text-white">
+                                At vero eos et atque accusamus et atque iusto odio dignissimos
+                                ducimus qui blanditiis praesentium voluptatum deleniti atque
+                                corrupti. Blanditiis prae euismod eu oluptatum deleniti atque
+                            </figcaption>
+                            <div class="card__body">
+                                <img src="./assets/Business_man_image.jpg" class="card__image" alt="Business_man_image">
+                                <div>
+                                    <span class="text-uppercase yellow fw-bold card__text--medium">
+                                        John Joe </span><br>
+                                    <span class="text-uppercase text-white fw-semibold card__text--small">
+                                        Business Man
+                                    </span>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <footer class="text-white text-center text-lg-start footer--dark" id="contact">
+        <div class="container footer p-4">
+            <div class="row mt-4">
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                    <h4 class="text-uppercase fw-bold mb-4 border--yellow">
+                        About Cab Hub
+                    </h4>
 
+                    <p class="footer__para">
+                        At vero eos et atque accusamus et atque iusto odio dignissimos
+                        ducimus qui blanditiis praesentium voluptatum deleniti atque
+                        corrupti. Blanditiis prae euismod eu.
+                    </p>
+
+                    <div class="mt-4">
+                        <a href="#"><i class="fab fa-facebook-f yellow mx-2"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g yellow mx-2"></i></a>
+                        <a href="#"><i class="fab fa-twitter yellow mx-2"></i></a>
+                        <a href="#"><i class="fab fa-brands fa-instagram yellow mx-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h4 class="text-uppercase fw-bold mb-4 border--yellow">Download</h4>
+
+                    <p class="footer__para">
+                        At vero eos etatque odio accusamus etiusto odio praesentium
+                        voluptatum,
+                    </p>
+                    <ul class="footer_device mx-0 px-0">
+                        <li class="pt-3">Android Users</li>
+                        <li class="pt-3">IOS Users</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0 footer__contact">
+                    <h4 class="text-uppercase fw-bold mb-4 border--yellow">Contact</h4>
+                    <ul class="mx-0 px-0">
+                        <li class="footer__writing">
+                            <img src="./assets/Locatation_icon.png" class="m-2" alt="locationIcon" >
+                            <a href="https://www.google.com/maps/search/%2B123,+Main+Street,+Your+City,+New+York,+USA+789456/@40.762569,-73.8340067,17z/data=!3m1!4b1?hl=en&entry=ttu"
+                                target="_blank" class="footer__link">
+                                +123, Main Street, Your City, <br >
+                                New York, USA 789456
+                            </a>
+                        </li>
+                        <li class="footer__writing">
+                            <img src="./assets/phone_icon.png" class="m-2" alt="mobileIcon" >
+                            <a href="tel:+12345678900" class="footer__link">
+                                +123 4567 8900
+                            </a>
+                        </li>
+                        <li class="footer__writing">
+                            <img src="./assets/mail_icon.png" class="m-2" alt="envelopIcon" >
+                            <a href="mailto:info@smartykindergarten.com" class="footer__link">
+                                free@psdfreebies.com
+                            </a>
+                        </li>
+                        <li class="footer__writing">
+                            <img src="./assets/webside_icon.png" class="m-2" alt="websideIcon" >
+                            <a href="" class="footer__link"> www.psdfreebies.com </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center copyright">
+            <span>Copyright &copy;
+                <a class="copyright__link" href="#">CAB HUB.com</a></span>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
