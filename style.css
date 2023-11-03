@@ -1,107 +1,4 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  font-family: 'Roboto', sans-serif;
-}
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-.background-image{
-  width: 100%;
-  margin: auto;
-}
-header{
-  position: relative;
-}
-.header--top{
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
- display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  align-items: center;
-}
-.website-logo img{
-  width:8rem;
-  cursor: pointer;
-}
-.navbar-items nav ul{
-  display: flex;
-  gap: 3rem;
-  margin: 0;
-}
-.navbar-items ul li {
-  list-style: none;
-  cursor: pointer;
-}
-
-.navbar-items ul li a{
-  text-decoration: none;
-  color: white;
-  font-size: 1rem;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-.navbar-items ul li a:hover{
-  background-color: #ffc719;
-  padding: 0.5rem 1rem;
-  border-radius: 15px;
-  color: black;
-}
-#check {
-  display: none;
-}
-#check:checked ~ .navbar-items {
-  left: 0;
-}
-#hamburger-icon {
-  font-size: 1.9rem;
-  color: white;
-  display: none;
-}
-.banner{
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 100%;
-  text-align: center;
-}
-.banner__text{
-  color: white;
-  }
-  .banner__text h1{
-    font-size: 36px;
-    text-transform: uppercase;
-    color: #ffc719;
-  }
-  .banner__text .contact-number{
-    font-size: 4.5rem;
-  }
-  .banner__text .site-link{
-    font-size: 18px;
-    letter-spacing: 0.7rem;
-    text-transform: uppercase;
-  }
-  .banner__content{
-    display: flex;
-    flex-direction: column;
-  }
-  .banner__text img{
-    position: absolute;
-    left: 30%;
-    transform: translate(-50%,0);
-    text-align: center;
-    width: 30rem;
-    transform: scaleY(1.3) translateY(50%);;
-  } */
-  * {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -130,17 +27,7 @@ header{
     padding: 1rem;
     align-items: center;
   }
-  /* .header--top {
-      width: 100%;
-      top: 0;
-      left: 0;
-      position: absolute;
-      display: flex;
-      justify-content: center;
-      padding: 1rem;
-      gap: 25rem;
-      align-items: center;
-    } */
+
   .website-logo img {
     width: 8rem;
     cursor: pointer;
@@ -174,9 +61,6 @@ header{
     left: 0;
   }
   #hamburger-icon {
-    /* float: right; */
-    /* line-height: 5rem; */
-    /* margin-right: 0.6rem; */
     font-size: 1.9rem;
     color: white;
     display: none;
@@ -193,7 +77,6 @@ header{
   }
   
   .banner__text {
-    /* position: absolute; */
     color: white;
   }
   .banner__text h1 {
@@ -215,14 +98,10 @@ header{
     flex-direction: column;
   }
   .banner__text img {
-    /* width: 100%; */
     position: absolute;
     left: 20%;
     top: -10%;
-    /* transform: translate(-50%, 0); */
     text-align: center;
-    /* margin-top: 3rem; */
-    /* width: 30rem; */
     transform: scaleY(1.2) translateY(50%);
   }
 .booking-wrapper{
