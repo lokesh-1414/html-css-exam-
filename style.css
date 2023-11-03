@@ -222,7 +222,7 @@ input:last-child{
   padding: 2rem;
 }
 .cab-class__item{
-  flex:1 1 100px;
+  flex:1 1 300px;
   margin-top: 6rem;
 }
 .cab-class__item img{
@@ -503,9 +503,6 @@ footer {
     margin: auto;
     margin-bottom: 1rem;
   }
-  .cab-class__item img{
-    width: 100%;
-  }
   .banner__text img{
     width: 45rem;
     margin-top: 8rem;
@@ -514,6 +511,9 @@ footer {
 @media screen and (max-width:480px) {
   .booking_desc, .booking_form--wrapper{
     width: 100%;
+  }
+  .cab-class__item img{
+    max-width: 100%;
   }
 }
 @media (max-width: 430px) {
